@@ -1,0 +1,465 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body Styling */
+
+body {
+    background-color: #534695;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+.header {
+    padding: 20px 10px;
+    font-size: 1.2rem;
+    background: #403a73;
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Layout Grid */
+
+.layout-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.layout-item img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.layout-item img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Buttons */
+
+.interactive-buttons {
+    margin: 30px 0;
+}
+
+.button-container .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.btn.primary {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn.secondary {
+    background-color: #555;
+    color: white;
+}
+
+.btn.colorful {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff6a88);
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+/* Footer */
+
+.footer {
+    background: #403a73;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+
+/* Global Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body */
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* Header */
+
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2b2d42;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+
+/* Product Section */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    color: #4caf50;
+}
+
+
+/* Buttons */
+
+.button-container {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background: #3f51b5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #303f9f;
+}
+
+.btn-secondary {
+    background: #8e24aa;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #6a1b9a;
+}
+
+.btn-dark {
+    background: #212121;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #000;
+}
+
+.btn-light {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.btn-light:hover {
+    background: #e0e0e0;
+}
+
+
+/* Filter Section */
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.filter-container label {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body Styling */
+
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #fad0c4, #fbc2eb);
+    background-size: 300% 300%;
+    animation: gradientBackground 10s ease infinite;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Header */
+
+.header {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #ff6a88, #ff758c, #ff9a9e);
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Layout Grid */
+
+.layout-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.layout-item img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.layout-item img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Buttons */
+
+.interactive-buttons {
+    margin: 30px 0;
+}
+
+.button-container .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb);
+    color: white;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to left, #fad0c4, #fbc2eb, #ff9a9e);
+}
+
+.btn.primary {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+}
+
+.btn.secondary {
+    background: linear-gradient(to right, #fad0c4, #fbc2eb);
+}
+
+.btn.colorful {
+    background: linear-gradient(45deg, #ff7eb3, #ff758c, #ff6a88, #fad0c4);
+    animation: rainbowBtn 3s linear infinite;
+}
+
+@keyframes rainbowBtn {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Footer */
+
+.footer {
+    background: linear-gradient(to right, #a18cd1, #fad0c4, #fbc2eb);
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* Product Section */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.product-card {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    color: #4caf50;
+}
+
+
+/* Filters */
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.filter-container label {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

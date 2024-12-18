@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check the Layouts - Interactive UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Check the Layouts</h1>
+        <p>As well as components and styles we've built a bunch of layouts in both Mobile and desktop sizes. Play around with replacing and modifying the nested content blocks and to switch device, simply use the content block property 'device' to toggle
+            between mobile and desktop.</p>
+    </header>
+
+    <!-- Layout Grid Section -->
+    <section class="layouts">
+        <div class="layout-grid">
+            <div class="layout-item">
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQEuP0Ud4OqgLA/feedshare-shrink_800/B56ZPXvNfnGQAg-/0/1734491299066?e=1737590400&v=beta&t=GhFNLt-_qtibkrEFjZtLg8lPWKhBXnFziH-ucbFhKSI" alt="Layout 1">
+            </div>
+            <div class="layout-item">
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQFHmWn4HZmjKA/feedshare-shrink_800/B56ZPXvNeVHIAg-/0/1734491299057?e=1737590400&v=beta&t=any4i3NGgEtHKRyotR09lN0cF4ZLf0cmM_jkyOPKAjs" alt="Layout 2">
+            </div>
+            <div class="layout-item">
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQGz58a4Mcf9nw/feedshare-shrink_2048_1536/B56ZPXvNduGsAo-/0/1734491300027?e=1737590400&v=beta&t=bDCl-qFCRYFqpZVs5kPOplBZ_EEsokFIgDgirg3qMs0" alt="Layout 3">
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <h1>Use the Components</h1>
+        <p>There’s a bunch of pre-configured components for you to use in this free template. Simply go to the Style Guide page and under the components header you can see everything included.</p>
+        <p>Buttons, steppers, filter options and more for you to integrate into your screens and modify to your tastes and requirements.</p>
+    </header>
+
+
+    <!-- Button Interaction Section -->
+    <section class="interactive-buttons">
+        <h2>Interactive Components</h2>
+        <div class="button-container">
+            <button class="btn primary">Primary</button>
+            <button class="btn secondary" onclick="buttonClick()">Secondary</button>
+            <button class="btn colorful">Colorful</button>
+        </div>
+    </section>
+
+
+    <section class="product-container">
+        <div class="product-card">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQEuP0Ud4OqgLA/feedshare-shrink_800/B56ZPXvNfnGQAg-/0/1734491299066?e=1737590400&v=beta&t=GhFNLt-_qtibkrEFjZtLg8lPWKhBXnFziH-ucbFhKSI" alt="The Dandy Chair" width="350" height="350">
+            <h2>The Dandy Chair</h2>
+            <p>&pound;250</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQFcAfIgz0PqDg/feedshare-shrink_1280/B56ZPZY2ZgG8Ao-/0/1734518991555?e=1737590400&v=beta&t=o3UZdQqB5JA5lNGtJ-XMcGQt7hfU1fVMFvbxZalO9Go" alt="Small Table">
+            <h2>Small Table</h2>
+            <p>&pound;250</p>
+        </div>
+    </section>
+
+    <section class="button-container">
+        <button class="btn btn-primary">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+        <button class="btn btn-tertiary">Tertiary Button</button>
+    </section>
+
+    <section class="filter-container">
+        <label><input type="checkbox" id="furniture"> Furniture</label>
+        <label><input type="checkbox" id="homeware" checked> Homeware</label>
+        <label><input type="checkbox" id="vases"> Vases</label>
+        <label><input type="checkbox" id="products"> Products</label>
+    </section>
+
+
+    <!-- Button Section -->
+    <section class="button-container">
+        <button class="btn btn-primary">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+        <button class="btn btn-dark">Dark Button</button>
+        <button class="btn btn-light">Light Button</button>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-container">
+        <label><input type="checkbox" id="furniture"> Furniture</label>
+        <label><input type="checkbox" id="homeware" checked> Homeware</label>
+        <label><input type="checkbox" id="vases"> Vases</label>
+        <label><input type="checkbox" id="products"> Products</label>
+        <label><input type="checkbox" id="components"> Components</label>
+        <label><input type="checkbox" id="styleguide"> Styleguide</label>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Interactive Layouts. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
